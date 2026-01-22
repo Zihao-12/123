@@ -20,7 +20,6 @@ public enum LogRecordEnum {
     COURSE_NL(7,"课程年龄"),
     COURSE_TM(8,"总听课时长");
 
-
     private Integer type;
     private String name;
     LogRecordEnum(Integer type,String name) {

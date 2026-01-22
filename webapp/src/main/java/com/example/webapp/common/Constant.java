@@ -9,7 +9,7 @@ public class Constant {
 
     public final static String NO_DATA = "暂无数据";
     /**
-     * 页面流览量缓存key前缀 end
+     * 页面流览量缓存key前缀end
      */
     public static final int PAGE_SIZE = 20;
     public static final Integer STOP = 0;
@@ -54,7 +54,6 @@ public class Constant {
 
     //通用资讯-浏览量key
     public final static String REDIS_KEY_HT_VIEW = "ht_view_";
-
 
     /**
      * 轮播图 站内H5跳转类型

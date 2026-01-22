@@ -2,7 +2,8 @@ package com.example.webapp.enums;
 
 public enum CourseTypeEnum {
     /**
-     * 1.视频课 2.签到视频
+     * 1.视频课
+     * 2.签到视频
      */
     VIDEO(1,"视频课"),
     CHECKIN_VIDEO(2,"签到视频");

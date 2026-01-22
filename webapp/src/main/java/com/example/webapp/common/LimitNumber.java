@@ -8,7 +8,7 @@ public class LimitNumber {
     public static String BANNER_LIMIT_INFO = "最多创建6张轮播图";
 
     /**
-     * 轮播图限制新建数量6
+     * 轮播图限制新建数量
      * @param num
      * @return true 限制操作
      */

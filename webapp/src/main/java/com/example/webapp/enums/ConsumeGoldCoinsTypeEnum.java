@@ -10,7 +10,6 @@ public enum ConsumeGoldCoinsTypeEnum {
     private int score;
     private String name;
 
-
     ConsumeGoldCoinsTypeEnum(int type, String name, int score) {
         this.type = type;
         this.name = name;

@@ -2,7 +2,9 @@ package com.example.webapp.enums;
 
 public enum CourseListTypeEnum {
     /**
-     * 课程列表类型 1.机构购买课程列表 2.自建课程列表
+     * 课程列表类型
+     * 1.机构购买课程列表
+     * 2.自建课程列表
      */
     YUN_YING(0,"运营端课程列表"),
     JIGOU_BUY(1,"机构购买课程列表"),

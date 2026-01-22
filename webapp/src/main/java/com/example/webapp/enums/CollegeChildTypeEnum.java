@@ -2,7 +2,6 @@ package com.example.webapp.enums;
 
 /**
  * 可建孩子节点类型：0 不可创建-此节点是班级 1可创建部门(此节点含部门结点) 2可创建班级(此节点是含班级的节点) 3可创建部门班级-此结点还没有子结点
- * @author gehaisong
  */
 public enum CollegeChildTypeEnum {
     /**
@@ -21,8 +20,6 @@ public enum CollegeChildTypeEnum {
      * 可创建部门班级
      */
     CREATE_DEPARTMENT_CLASS(3,"可创建部门/分类或班级/叶子-此结点还没有子结点");
-
-
 
     private Integer type;
     private String name;

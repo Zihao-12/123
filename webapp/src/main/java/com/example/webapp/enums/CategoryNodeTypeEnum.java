@@ -1,8 +1,6 @@
 package com.example.webapp.enums;
 
-/**
- * @author gehaisong
- */
+
 public enum CategoryNodeTypeEnum {
     /**
      *

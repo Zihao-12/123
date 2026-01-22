@@ -32,5 +32,4 @@ public enum UserTypeEnum {
         this.name = name;
     }
 
-
 }

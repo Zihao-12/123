@@ -2,7 +2,9 @@ package com.example.webapp.enums;
 
 public enum CheckinTypeEnum {
     /**
-     * -1消耗积分 0视频签到 1活动签到
+     * -1消耗积分
+     * 0视频签到
+     * 1活动签到
      */
     CONSUME(-1,"消耗积分",0),
     VIDEO(0,"视频签到",20),

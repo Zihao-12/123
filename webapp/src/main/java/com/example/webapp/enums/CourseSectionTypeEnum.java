@@ -1,10 +1,6 @@
 package com.example.webapp.enums;
 
-/**
- * @author wujun
- * @description
- * @date 2021/2/12
- */
+
 public enum CourseSectionTypeEnum {
 
     /**

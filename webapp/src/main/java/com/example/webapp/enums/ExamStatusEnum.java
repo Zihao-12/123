@@ -8,7 +8,6 @@ public enum ExamStatusEnum {
     TO_START (1,"未开始"),
     START (2,"进行中"),
     OVER (3,"已结束");
-
     private Integer type;
     private String name;
     ExamStatusEnum(int type, String name){

@@ -1,6 +1,7 @@
 package com.example.webapp.enums;
 
-import org.apache.commons.lang3.StringUtils;
+
+import io.micrometer.common.util.StringUtils;
 
 /**
  * 平台标记枚举

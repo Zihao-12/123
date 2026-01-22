@@ -1,9 +1,7 @@
 package com.example.webapp.enums;
 
 /**
- * @author wujun
- * @description
- * @date 2021/2/2
+ *
  */
 public enum CourseSectionLearnedEnum {
     COMPLETE(1,"已学完");

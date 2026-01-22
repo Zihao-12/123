@@ -36,5 +36,4 @@ public enum SourceTypeEnum {
         }
         return null;
     }
-
 }

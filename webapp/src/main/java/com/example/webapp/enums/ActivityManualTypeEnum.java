@@ -1,8 +1,10 @@
 package com.example.webapp.enums;
 
+
 public enum ActivityManualTypeEnum {
     /**
      *选题规则
+     *
      */
     SYSTEM(0,"系统分配"),
     MANUAL(1,"手动配置");

@@ -12,7 +12,6 @@ public enum LoginTokenSourceEnum {
     LogoutInterceptor ("LogoutInterceptor"),
     LoginRecordAspect ("LoginRecordAspect"),
     LoginRequiredInterceptor ("LoginRequiredInterceptor");
-
     private String source;
     LoginTokenSourceEnum(String source){
         this.source=source;

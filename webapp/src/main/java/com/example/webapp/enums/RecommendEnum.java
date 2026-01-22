@@ -22,5 +22,4 @@ public enum RecommendEnum {
         return description;
     }
 
-
 }

@@ -1,8 +1,6 @@
 package com.example.webapp.result;
 
-/**
- *
- */
+
 public enum CodeEnum {
     SUCCESS(0,"SUCCESS"),
     FAILED(-1,"FAILED"),

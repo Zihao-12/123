@@ -1,9 +1,6 @@
 package com.example.webapp.enums;
 
 public enum DockingTypeEnum {
-    /**
-     *
-     */
     TU_CHUANG("TU_CHUANG","图创对接"),
     SHOU_DU_TU_SHU_GUAN("SHOU_DU_TU_SHU_GUAN","首都图书馆对接");
     private String dockingType;

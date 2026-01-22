@@ -2,7 +2,9 @@ package com.example.webapp.enums;
 
 public enum CourseUnlockEnum {
     /**
-     *课程模式: 0自由模式 1闯关模式
+     *课程模式:
+     * 0自由模式
+     * 1闯关模式
      */
     FREE(0,"自由模式"),
     PASS(1,"闯关模式");

@@ -5,8 +5,6 @@ import org.apache.commons.lang3.StringUtils;
  * 手机验证码使用方式
  */
 public enum VerifyCodeTypeEnum {
-
-
     /**
      * 快速注册时使用
      */

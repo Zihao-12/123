@@ -1,14 +1,11 @@
 package com.example.webapp.enums;
 
-import com.zhihuiedu.business.vo.EnumsVO;
+import com.example.webapp.VO.EnumsVO;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author ghs
- * @description
- */
+
 public enum QuestionTypeEnum {
     /**
      * 题目类型 1.单选 2.多选 3.判断

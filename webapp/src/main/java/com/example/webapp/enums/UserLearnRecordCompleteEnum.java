@@ -1,8 +1,5 @@
 package com.example.webapp.enums;
 
-/**
- * @author wujun
- */
 
 public enum UserLearnRecordCompleteEnum {
     COMPLETE_NOT_START (-1,"未开始(没听课)"),

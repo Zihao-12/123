@@ -11,7 +11,6 @@ public enum ObjectTypeEnum {
     private int type;
     private String name;
 
-
     ObjectTypeEnum(int type, String name) {
         this.type = type;
         this.name = name;

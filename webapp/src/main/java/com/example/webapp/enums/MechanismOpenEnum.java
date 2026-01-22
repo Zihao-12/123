@@ -5,9 +5,6 @@ package com.example.webapp.enums;
  * -1 all 0 finished 1 to start 2 in progress
  */
 public enum MechanismOpenEnum {
-    /**
-     *
-     */
     ALL(-1,"全部状态"),
     FINISHED(0,"已结束"),
     TO_START (1,"待开始"),

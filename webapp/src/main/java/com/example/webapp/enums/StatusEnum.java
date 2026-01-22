@@ -2,9 +2,6 @@ package com.example.webapp.enums;
 
 
 public enum StatusEnum {
-    /**
-     *
-     */
     ALL (-1,"全部状态"),
     STOP (0,"已停用"),
     ENABLE (1,"已启用");

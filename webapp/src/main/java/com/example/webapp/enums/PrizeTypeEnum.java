@@ -14,7 +14,6 @@ public enum PrizeTypeEnum {
         this.type = type;
         this.description = description;
     }
-
     public Integer getType() {
         return type;
     }

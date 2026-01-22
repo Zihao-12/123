@@ -36,5 +36,4 @@ public enum RankingLocalTypeEnum {
         }
         return null;
     }
-
 }

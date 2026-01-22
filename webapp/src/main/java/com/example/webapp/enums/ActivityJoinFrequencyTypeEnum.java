@@ -2,7 +2,7 @@ package com.example.webapp.enums;
 
 public enum ActivityJoinFrequencyTypeEnum {
     /**
-     *活动参加频次,默认次数
+     *活动参加频次以及默认次数
      */
     ALL(0,1,"总共"),
     PER_DAY(1,3,"每天");

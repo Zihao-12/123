@@ -2,9 +2,6 @@ package com.example.webapp.enums;
 
 
 public enum MechanismOpenTypeEnum {
-    /**
-     *
-     */
     ALL_OPEN (-1,"已开通：开通状态为“待开始、进行中、已结束"),
     PRACTICE (0,"通用开通");
 

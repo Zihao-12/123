@@ -3,7 +3,10 @@ package com.example.webapp.enums;
 
 public enum CourseTryStatusEnum {
     /**
-     *试看设置：0全部可看 1试看第一节 2试看前三节
+     *试看设置：
+     * 0全部可看
+     * 1试看第一节
+     * 2试看前三节
      */
     ALL (0,"全部可看"),
     TRY_FIRST (1,"试看第一节"),

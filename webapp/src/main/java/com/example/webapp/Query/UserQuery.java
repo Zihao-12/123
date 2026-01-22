@@ -2,7 +2,6 @@ package com.example.webapp.Query;
 
 import com.example.webapp.result.ResultPage;
 import lombok.Data;
-
 import java.io.Serializable;
 import java.util.Date;
 

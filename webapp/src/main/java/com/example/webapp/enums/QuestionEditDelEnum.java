@@ -1,15 +1,12 @@
 package com.example.webapp.enums;
 
 
-import com.zhihuiedu.business.vo.EnumsVO;
+
+import com.example.webapp.VO.EnumsVO;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author ghs
- * @description
- */
 public enum QuestionEditDelEnum {
     /**
      * 编辑删除 0正常  1编辑删除-编辑时被试卷引用则删除，

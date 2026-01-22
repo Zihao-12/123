@@ -2,9 +2,6 @@ package com.example.webapp.enums;
 
 
 public enum MechanismListOpenTypeEnum {
-    /**
-     *
-     */
     ONLY_OPEN (1,"只查询开通的机构"),
     EXCLUDE_OPEN (0,"排除有开通记录的机构");
 

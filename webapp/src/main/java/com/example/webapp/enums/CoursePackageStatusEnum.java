@@ -1,9 +1,6 @@
 package com.example.webapp.enums;
 
 public enum CoursePackageStatusEnum {
-    /**
-     *
-     */
     NOT_USED(0,"待使用"),
     USED(1,"已使用");
     public Integer status;

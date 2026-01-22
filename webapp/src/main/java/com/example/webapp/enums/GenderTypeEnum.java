@@ -2,7 +2,8 @@ package com.example.webapp.enums;
 
 public enum GenderTypeEnum {
     /**
-     * 0未设置 1男 2女'
+     * 0未设置
+     * 1男2女'
      */
     NOT_SET(1,"未设置"),
     MALE(2,"男"),

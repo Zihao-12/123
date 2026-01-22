@@ -1,9 +1,6 @@
 package com.example.webapp.enums;
 
 public enum UpDownStatusEnum {
-    /**
-     *
-     */
     UP(1,"已上架"),
     DOWN(0,"待上架");
 

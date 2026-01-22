@@ -24,4 +24,6 @@ public enum ActivityErrorInfoEnum {
     public String getInfo() {
         return info;
     }
+
+
 }

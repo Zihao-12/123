@@ -9,7 +9,6 @@ public enum ObjectDeleteEnum {
     private int type;
     private String name;
 
-
     ObjectDeleteEnum(int type, String name) {
         this.type = type;
         this.name = name;

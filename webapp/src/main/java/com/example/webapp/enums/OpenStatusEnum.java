@@ -2,9 +2,6 @@ package com.example.webapp.enums;
 
 
 public enum OpenStatusEnum {
-    /**
-     *
-     */
     PRACTICE_NO_OPEN (1,"未开通实训"),
     PRACTICE_NORMAL (2,"实训开通正常"),
     PRACTICE_EXPIRED (3,"实训开通过期"),

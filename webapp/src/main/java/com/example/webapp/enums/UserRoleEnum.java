@@ -1,8 +1,6 @@
 package com.example.webapp.enums;
 
 public enum UserRoleEnum {
-    /**
-     */
     NO_ROLE (-1,"无角色"),
     STUDENT (0,"学生"),
     TEACHER (1,"教师"),

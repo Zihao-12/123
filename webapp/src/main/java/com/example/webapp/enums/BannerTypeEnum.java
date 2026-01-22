@@ -2,7 +2,8 @@ package com.example.webapp.enums;
 
 public enum BannerTypeEnum {
     /**
-     *轮播图类型 1.H5首页 2.小程序首页
+     *轮播图类型 1.H5首页
+     * 2.小程序首页
      */
     H5_HOME(1,"H5首页"),
     APP_HOME(2,"小程序首页");

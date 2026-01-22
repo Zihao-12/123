@@ -2,15 +2,13 @@ package com.example.webapp.enums;
 
 
 
+import com.example.webapp.VO.EnumsVO;
 import io.micrometer.common.util.StringUtils;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author ghs
- * @description
- */
+
 public enum QuestionLevelEnum {
     /**
      * 1星 2星 3星 4星 5星
