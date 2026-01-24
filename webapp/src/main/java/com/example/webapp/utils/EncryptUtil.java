@@ -15,7 +15,6 @@ import java.math.BigDecimal;
 
 /**
  * @Description:sid 加密
- *  @author gehaisong
  */
 public class EncryptUtil {
 

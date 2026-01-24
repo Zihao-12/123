@@ -1,10 +1,11 @@
 package com.example.webapp.third;
 
+
 import com.aliyun.oss.ClientException;
 import com.aliyun.oss.OSS;
-import com.aliyun.oss.OSSClientBuilder;
 import com.aliyun.oss.OSSException;
 import com.aliyun.oss.model.*;
+import com.aliyun.oss.OSSClient;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.springframework.web.multipart.MultipartFile;
@@ -13,7 +14,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-
+@Slf4j
 public class AliOSS {
     /**
      * 对返回的文件名称进行编码。编码类型目前仅支持url

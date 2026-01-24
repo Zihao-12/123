@@ -12,8 +12,7 @@ import java.util.Locale;
 
 /**
  * @program: b2b-common
- * @author: gehaisong
- * @create: 2019-12-16 11:19
+
  * DateTimeConstants 常量类
  * 如果业务只需要日期，请使用 LocalDate,
  * 如果业务只关心时间，那么使用 LocalTime

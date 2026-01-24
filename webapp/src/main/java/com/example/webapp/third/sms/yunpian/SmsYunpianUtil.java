@@ -1,9 +1,10 @@
 package com.example.webapp.third.sms.yunpian;
 
+import com.example.webapp.result.CodeEnum;
+import com.example.webapp.result.Result;
 import com.yunpian.sdk.YunpianClient;
 import com.yunpian.sdk.model.SmsSingleSend;
-import com.zhihuiedu.framework.result.CodeEnum;
-import com.zhihuiedu.framework.result.Result;
+
 
 import java.io.IOException;
 import java.util.Map;
@@ -41,7 +42,7 @@ public class SmsYunpianUtil {
      * @return
      * @throws IOException
      */
-    public static Result  send(String phone, String code) throws IOException {
+    public static Result send(String phone, String code) throws IOException {
         return send(phone,code,SmsTempletEnum.TEMPLET_KELORPARK.getTempletId());
     }
 

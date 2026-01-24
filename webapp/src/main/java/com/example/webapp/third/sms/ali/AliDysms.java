@@ -3,8 +3,8 @@ package com.example.webapp.third.sms.ali;
 import com.aliyun.dysmsapi20170525.models.SendSmsRequest;
 import com.aliyun.dysmsapi20170525.models.SendSmsResponse;
 import com.aliyun.teaopenapi.models.Config;
-import com.zhihuiedu.framework.result.Result;
-import com.zhihuiedu.thrid.AccessKeyIdSecretEnum;
+import com.example.webapp.result.Result;
+import com.example.webapp.third.AccessKeyIdSecretEnum;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 

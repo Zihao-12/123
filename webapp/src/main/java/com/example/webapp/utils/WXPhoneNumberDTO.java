@@ -7,9 +7,7 @@ import lombok.Data;
 import java.io.Serializable;
 
 
-/**
- * @author gehaisong
- */
+
 @ApiModel( "微信用户电话结果DTO")
 @Data 
 public class WXPhoneNumberDTO implements Serializable {

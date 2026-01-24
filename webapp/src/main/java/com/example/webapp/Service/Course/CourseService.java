@@ -1,16 +1,16 @@
 package com.example.webapp.Service.Course;
 
-import com.example.webapp.DO.CourseDO;
-import com.example.webapp.DO.UserFavoriteRefDO;
+import com.example.webapp.DO.*;
 import com.example.webapp.DTO.CourseDTO;
 import com.example.webapp.DTO.CourseSectionDTO;
-import com.example.webapp.Query.CourseQuery;
+import com.example.webapp.query.CourseQuery;
+import com.example.webapp.query.UserLearnRecordQuery;
 import com.example.webapp.result.Result;
 import com.example.webapp.result.ResultPage;
 import com.github.pagehelper.PageInfo;
+import org.springframework.stereotype.Service;
 
-import java.util.List;
-
+@Service
 public interface CourseService {
 
     /**

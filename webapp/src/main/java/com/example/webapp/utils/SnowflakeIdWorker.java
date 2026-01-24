@@ -20,7 +20,6 @@ import java.math.BigDecimal;
 
  所有生成的id按时间趋势递增
  整个分布式系统内不会产生重复id（因为有datacenterId和workerId来做区分）
- @author gehaisong
  */
 public class SnowflakeIdWorker {
 

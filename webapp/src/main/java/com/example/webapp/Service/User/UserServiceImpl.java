@@ -1,8 +1,8 @@
 package com.example.webapp.Service.User;
 
 import com.example.webapp.DO.UserDO;
-import com.example.webapp.Mapper.UserMapper;
-import com.example.webapp.Query.UserQuery;
+import com.example.webapp.Mapper.user.UserMapper;
+import com.example.webapp.query.UserQuery;
 import com.example.webapp.common.Constant;
 import com.example.webapp.enums.GenderTypeEnum;
 import com.example.webapp.enums.UserRoleEnum;

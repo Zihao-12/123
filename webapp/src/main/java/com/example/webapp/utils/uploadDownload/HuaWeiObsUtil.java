@@ -6,11 +6,7 @@ import com.obs.services.model.*;
 
 import java.io.InputStream;
 
-/**
- * @author wujun
- * @description
- * @date 2020/11/23
- */
+
 public class HuaWeiObsUtil {
     private String endPoint;
     private String ak;

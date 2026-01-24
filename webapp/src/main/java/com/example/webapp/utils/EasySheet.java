@@ -5,11 +5,7 @@ import lombok.Data;
 import java.io.Serializable;
 import java.util.List;
 
-/**
- * 
- * @author gehaisong
- *
- */
+
 @Data
 public class EasySheet implements Serializable {
 

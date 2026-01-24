@@ -15,7 +15,6 @@ import java.util.Map;
  * 前端根据后端生成的公钥进行rsa加密
  * RSAEncrypt 非对称加密:RSA   0< 加密明文字节数 <= 密钥字节-11      message.getBytes().length
  *            utf8: 汉字3个字节 英文数字字母1个字节
- * @author: gehaisong
  **/
 public class EncryptRsa {
     public static final String DEFAULT_PUBLIC_KEY = "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyPVUuiulUWbHdK6lgzGIy9JX1d2XK33yn6Bn2oa8LtYjS6ltfJFcGPJz1rn5djetm8sYGMP4/L6mIEZdLmEb0sOEzL3lP3hK3OsE/TofU3/0o5vHqu0Wkj4IVWeM2A6Nu7ZcPJgVmeM9WUtWzW+nCjwsoBPUQcJLl+l94hxsLRQIDAQAB";

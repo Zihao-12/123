@@ -2,7 +2,6 @@ package com.example.webapp.utils;
 
 /**
  * @Description:功能描述
- * @author gehaisong
  */
 public interface ParamKeys {
     String JWT_TOKEN = "token";

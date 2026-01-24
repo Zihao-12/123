@@ -39,9 +39,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-/**
- *  @author gehaisong
- */
+
 @Slf4j
 public class HttpUtil {
     public static final String UTF_8 = "UTF-8";

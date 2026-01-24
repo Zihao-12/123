@@ -1,6 +1,11 @@
 package com.example.webapp.third;
 
 import ch.qos.logback.core.net.server.Client;
+import com.aliyun.teaopenapi.models.Config;
+import com.aliyuncs.DefaultAcsClient;
+import com.aliyuncs.IAcsClient;
+import com.aliyuncs.profile.DefaultProfile;
+import com.aliyuncs.vod.model.v20170321.*;
 import com.example.webapp.result.Result;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.exception.ExceptionUtils;

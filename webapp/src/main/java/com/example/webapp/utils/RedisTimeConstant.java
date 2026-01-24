@@ -1,9 +1,5 @@
 package com.example.webapp.utils;
-/**
- * @author wujun
- * @description
- * @date 2021/4/3
- */
+
 public class RedisTimeConstant {
     public static final long HOUR_1 = 60 * 60;
     public static final long HOUR_2 = 2 * 60 * 60;

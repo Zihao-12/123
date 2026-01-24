@@ -1,24 +1,24 @@
 package com.example.webapp.utils;
 
+import cn.hutool.core.codec.Base64;
 import com.alibaba.fastjson.JSON;
+import com.example.webapp.common.redis.RedisKeyGenerator;
+import com.example.webapp.common.redis.RedisUtils;
+import com.example.webapp.third.AccessKeyIdSecretEnum;
+import com.example.webapp.utils.http.HttpUtil;
 import com.google.gson.JsonObject;
-import com.zhihuiedu.common.redis.RedisKeyGenerator;
-import com.zhihuiedu.common.redis.RedisUtils;
-import com.zhihuiedu.framework.utils.SpringContextUtil;
-import com.zhihuiedu.framework.utils.http.HttpUtil;
-import com.zhihuiedu.thrid.AccessKeyIdSecretEnum;
+
+import jakarta.servlet.http.HttpServletResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.exception.ExceptionUtils;
-import org.apache.shiro.codec.Base64;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 import org.springframework.stereotype.Component;
 
 import javax.crypto.Cipher;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
-import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;

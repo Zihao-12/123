@@ -1,16 +1,17 @@
 package com.example.webapp.utils.http;
 
+import sun.net.util.IPAddressUtil;
+
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import eu.bitwalker.useragentutils.*;
+import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
-import sun.net.util.IPAddressUtil;
 
-import javax.servlet.http.HttpServletRequest;
 import java.net.Inet4Address;
 import java.net.InetAddress;
 import java.net.NetworkInterface;
@@ -28,7 +29,6 @@ import java.util.Map;
  *       常见的C类IP地址，网络号（Net-ID）=24位，主机号（Host-ID）=8位
  *                      拥有2的8次方-2=254个ip（-2，扣除表示子网网络地址0、与广播255）
  *  查看出口IP命令: curl cip.cc
- * @author ghs
  * @since created by 2022/4/2 14:49
  */
 @Slf4j

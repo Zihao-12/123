@@ -12,7 +12,6 @@ import java.security.Security;
 /**
  * EncryptDes 对称加密
  * EncryptRsa 非对称加密
- *  @author gehaisong
  */
 @Slf4j
 public class EncryptDes {

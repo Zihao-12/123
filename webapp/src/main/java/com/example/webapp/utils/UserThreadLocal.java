@@ -1,7 +1,8 @@
 package com.example.webapp.utils;
 
 
-import com.zhihuiedu.framework.sso.UserDto;
+import com.example.webapp.DTO.UserDto;
+
 
 public class UserThreadLocal {
     /**

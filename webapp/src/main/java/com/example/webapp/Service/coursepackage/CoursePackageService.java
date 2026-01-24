@@ -1,15 +1,10 @@
 package com.example.webapp.Service.coursepackage;
 
 import com.example.webapp.DO.CoursePackageDO;
-import com.example.webapp.DO.CoursePackageRefDO;
-import com.example.webapp.DTO.CourseDTO;
-import com.example.webapp.DTO.CoursePackageDTO;
-import com.example.webapp.Query.CoursePackageQuery;
+import com.example.webapp.query.CoursePackageQuery;
 import com.example.webapp.result.ResultPage;
 import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 
 @Service

@@ -1,7 +1,7 @@
 package com.example.webapp.Service.User;
 
 import com.example.webapp.DO.UserDO;
-import com.example.webapp.Query.UserQuery;
+import com.example.webapp.query.UserQuery;
 import com.example.webapp.result.Result;
 import com.github.pagehelper.PageInfo;
 

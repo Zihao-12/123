@@ -3,10 +3,7 @@ package com.example.webapp.utils;
 import java.io.Serializable;
 import java.lang.reflect.Method;
 
-/**
- * Created by gehaisong on 2018/11/23.
- *  @author gehaisong
- */
+
 public class SortField implements Serializable {
     private static final long serialVersionUID = -3386609948297680163L;
     /** 参数：排序字段 */

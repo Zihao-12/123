@@ -2,9 +2,15 @@ package com.example.webapp.Service.Banner;
 
 
 import com.example.webapp.DO.BannerDO;
+import com.example.webapp.DO.MechanismBannerRefDO;
 import com.example.webapp.DTO.BannerDTO;
 import com.example.webapp.DTO.BindMechanismDTO;
-import com.example.webapp.Query.BannerQuery;
+import com.example.webapp.DTO.MechanismDTO;
+import com.example.webapp.Mapper.Banner.BannerMapper;
+import com.example.webapp.annotation.Cacheable;
+import com.example.webapp.annotation.RepeatableCommit;
+import com.example.webapp.query.BannerQuery;
+import com.example.webapp.query.BindMechanismQuery;
 import com.example.webapp.common.Constant;
 import com.example.webapp.enums.BannerTypeEnum;
 import com.example.webapp.enums.SourceTypeEnum;
@@ -12,10 +18,13 @@ import com.example.webapp.result.Result;
 import com.example.webapp.result.ResultPage;
 import com.example.webapp.third.AliOSS;
 import com.example.webapp.utils.ListOperateDTO;
+import com.example.webapp.utils.ListUtil;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import com.google.common.collect.Lists;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,8 +32,9 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.util.CollectionUtils;
 
+
+import java.io.Serializable;
 import java.util.List;
 
 @EnableTransactionManagement

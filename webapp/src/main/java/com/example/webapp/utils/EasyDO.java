@@ -8,9 +8,7 @@ import lombok.EqualsAndHashCode;
 import java.io.Serializable;
 
 
-/**
- * @author gehaisong
- */
+
 @ApiModel( "EasyDO")
 @Data
 @EqualsAndHashCode

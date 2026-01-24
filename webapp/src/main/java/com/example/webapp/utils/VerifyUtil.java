@@ -1,6 +1,6 @@
 package com.example.webapp.utils;
 
-import com.zhihuiedu.framework.utils.dto.KeyValueDTO;
+import com.example.webapp.utils.dto.KeyValueDTO;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 
@@ -10,10 +10,7 @@ import java.util.Random;
 import java.util.regex.Pattern;
 
 
-/**
- * @author gehaisong
- * @version 1.0
- */
+
 @Slf4j
 public class VerifyUtil {
 

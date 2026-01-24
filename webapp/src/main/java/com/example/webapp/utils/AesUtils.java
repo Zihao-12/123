@@ -9,9 +9,7 @@ import org.springframework.stereotype.Service;
 
 import java.nio.charset.StandardCharsets;
 
-/**
- * @author ghss
- */
+
 @Service
 @Slf4j
 public class AesUtils {

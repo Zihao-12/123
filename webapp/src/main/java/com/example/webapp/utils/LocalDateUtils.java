@@ -14,7 +14,6 @@ import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * JDK8线程安全的日期工具类
- * Created by Ma·JJ on 2021-04-21
  */
 @Slf4j
 public class LocalDateUtils {
