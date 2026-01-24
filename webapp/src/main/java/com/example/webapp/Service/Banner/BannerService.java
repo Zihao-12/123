@@ -5,6 +5,7 @@ import com.example.webapp.DO.BannerDO;
 import com.example.webapp.DTO.BannerDTO;
 import com.example.webapp.DTO.BindMechanismDTO;
 import com.example.webapp.Query.BannerQuery;
+import com.example.webapp.Query.BindMechanismQuery;
 import com.example.webapp.result.Result;
 import com.example.webapp.result.ResultPage;
 import com.github.pagehelper.PageInfo;

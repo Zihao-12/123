@@ -4,7 +4,6 @@ import com.example.webapp.DO.CoursePackageDO;
 import com.example.webapp.DO.CoursePackageRefDO;
 import com.example.webapp.DTO.CoursePackageDTO;
 import com.example.webapp.Mapper.CourseMapper;
-import com.example.webapp.Mapper.CoursePackageMapper;
 import com.example.webapp.Query.CoursePackageQuery;
 import com.example.webapp.common.Constant;
 import com.example.webapp.enums.CoursePackageStatusEnum;

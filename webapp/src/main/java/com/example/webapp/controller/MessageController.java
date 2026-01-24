@@ -1,25 +1,23 @@
 package com.example.webapp.controller;
 
+import com.example.webapp.DO.MessageDO;
+import com.example.webapp.DTO.BindMechanismDTO;
+import com.example.webapp.DTO.MessageDTO;
+import com.example.webapp.Query.BindMechanismQuery;
+import com.example.webapp.Query.MessageQuery;
+import com.example.webapp.Service.MessageService.MessageService;
+import com.example.webapp.common.Constant;
+import com.example.webapp.enums.PlatformMarkEnum;
 import com.example.webapp.result.Result;
+import com.example.webapp.result.ResultPage;
 import com.github.pagehelper.PageInfo;
-import com.zhihuiedu.business.common.Constant;
-import com.zhihuiedu.business.dto.BindMechanismDTO;
-import com.zhihuiedu.business.dto.MessageDTO;
-import com.zhihuiedu.business.entity.MessageDO;
-import com.zhihuiedu.business.query.BindMechanismQuery;
-import com.zhihuiedu.business.query.MessageQuery;
-import com.zhihuiedu.business.service.message.MessageService;
-import com.zhihuiedu.framework.annotation.LoginRequired;
-import com.zhihuiedu.framework.enums.PlatformMarkEnum;
-import com.zhihuiedu.framework.result.Result;
-import com.zhihuiedu.framework.result.ResultPage;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cloud.context.config.annotation.RefreshScope;
+
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.*;
 

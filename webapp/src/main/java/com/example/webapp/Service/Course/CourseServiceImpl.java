@@ -4,7 +4,6 @@ import com.example.webapp.DTO.CourseDTO;
 import com.example.webapp.DTO.CoursePackageDTO;
 import com.example.webapp.DTO.ObjectCategoryDTO;
 import com.example.webapp.Mapper.CourseMapper;
-import com.example.webapp.Mapper.CoursePackageMapper;
 import com.example.webapp.Query.CourseQuery;
 import com.example.webapp.common.Constant;
 import com.example.webapp.enums.CourseSectionTypeEnum;

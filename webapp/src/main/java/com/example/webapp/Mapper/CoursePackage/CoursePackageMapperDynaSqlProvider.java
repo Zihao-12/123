@@ -1,4 +1,4 @@
-package com.example.webapp.Service.coursepackage;
+package com.example.webapp.Mapper.CoursePackage;
 
 import com.example.webapp.DO.CoursePackageDO;
 import com.example.webapp.DO.CoursePackageRefDO;
